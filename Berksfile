@@ -2,5 +2,5 @@ source 'https://supermarket.chef.io'
 
 metadata
 
-cookbook 'rbenv_resources', '~> 0.6.7'
+cookbook 'rbenv', '~> 1.7.1'
 cookbook 'ws_users', path: '../ws_users'

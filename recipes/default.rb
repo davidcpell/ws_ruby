@@ -4,10 +4,9 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-system_rbenv '/usr/local/' do 
-  rbenv_users ['david', 'vagrant']
+include_recipe 'rbenv'
+include_recipe 'rbenv::ruby_build'
+
+rbenv_ruby '2.2.5' do 
+  global true
 end
-
-ruby_version '2.2.2'
-
-global_ruby  '2.2.2'

@@ -6,4 +6,4 @@ description 'Installs/Configures ruby'
 long_description 'Installs/Configures ruby'
 version '0.2.0'
 
-depends 'rbenv_resources'
+depends 'rbenv'
